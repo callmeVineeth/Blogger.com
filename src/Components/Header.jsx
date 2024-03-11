@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary px-5">
+    <Navbar expand="lg" className=" bg-info px-5">
       <Container fluid className='d-flex justify-content-between'>
         {/* Brand positioned on the left */}
         <Navbar.Brand href="/">Blogger.com</Navbar.Brand>
@@ -16,6 +16,7 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ms-auto ">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/create">Create Post</Nav.Link>
             <Nav.Link as={Link} to="/authors">Authors</Nav.Link>
             <NavDropdown title="Profile" id="basic-nav-dropdown">

@@ -5,7 +5,7 @@ import PostAuthor from './PostAuthor'
 function PostItem({title, description, thumbnail,avathar, authorName, upload_time}) {
   return (
     
-    <Card style={{ width: '20rem' }} className=' p-2 mb-0 rounded-4'>
+    <Card style={{ width: '22rem' }} className=' p-2 mb-0 rounded-4'>
       <div className=' '>
       <Card.Img variant="top" src={thumbnail} alt='thumbnail' className=' rounded-4' />
        <Card.Body>

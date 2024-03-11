@@ -6,8 +6,8 @@ function PostAuthor({avathar, authorName, upload_time}) {
     <Link to={'/posts/users/'}  className=' text-decoration-none text-black'>
       <section className='d-flex flex-row gap-2 align-content-center
      justify-content-start'>
-          <div className=' w-25'>
-              <img src={avathar} alt='AuthorImage' className=' rounded-4' style={{ width: '100%'}}/>
+          <div className='' style={{ width:'40px'}}>
+              <img src={avathar} alt='AuthorImage' className=' rounded-2' style={{ width: '100%'}}/>
           
           </div>
           <section className=' w-auto d-flex flex-column mt-1 '>

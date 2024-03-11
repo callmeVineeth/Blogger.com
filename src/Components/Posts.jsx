@@ -22,15 +22,16 @@ const Dummy_Posts = [
         authorImage: avathar1,
       },
       {
-        id:1,
+        id:2,
         image: Thumbnail2,
         title: "Breathtaking Landscapes Around the World",
         description: "Discover the beauty of nature with a glimpse of stunning landscapes from various corners of the globe.",
         author: "Jane Smith",
         category: "nature",
         time: "1 day ago",
-        authorImage: avathar1,
+        authorImage: avathar3,
       },
+      
       {
         id:1,
         image: Thumbnail3,
@@ -43,7 +44,7 @@ const Dummy_Posts = [
       },
       {
         id:1,
-        image: Thumbnail1,
+        image: Thumbnail3, 
         title: "Unlocking the Power of Automation",
         description: "Automation is transforming various industries. Learn how automation can streamline processes and boost productivity.",
         author: "Sarah Lee",

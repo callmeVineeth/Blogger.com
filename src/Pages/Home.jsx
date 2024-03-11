@@ -3,7 +3,7 @@ import Posts from '../Components/Posts'
 
 function Home() {
   return (
-    <div>
+    <div className=' bg-body-tertiary'>
       <Posts/>
     </div>
   )

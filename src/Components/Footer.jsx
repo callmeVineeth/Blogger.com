@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Nav } from 'react-bootstrap'
+import { Container,Nav, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import footer from '../Styles/footer.css'
 
@@ -17,6 +17,7 @@ function Footer() {
           <Nav.Link className='' as={Link} to="posts/categories/war" >War</Nav.Link>           
         </Nav>  
       </Container>
+      <NavDropdown.Divider />
       <div className=' text-center  text-white py-2'>
        All Copyright reserved
 
