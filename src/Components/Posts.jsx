@@ -67,8 +67,8 @@ function Posts() {
     const [posts, setPosts] = useState([...Dummy_Posts])
   return (
     <section className=' d-flex justify-content-center flex-row flex-wrap gap-5 p-4'>
-    {posts.map(({id, thumbnail , category, title, description, image, authorImage, author})=>
-        <PostItem  key={id} thumbnail={image} title={title} description={description} avathar={authorImage}
+    {posts.map(({id, thumbnail , category, title, description, image, authorImage, author, time})=>
+        <PostItem  key={id} thumbnail={image} title={title} description={description} avathar={authorImage} upload_time={time}
         authorName={author}/>
     )}
       
