@@ -1,0 +1,23 @@
+.footer{
+  border-bottom: white;
+  border: 12px solid;
+}
+
+.footer-links a.nav-link {
+    background-color: rgb(68, 65, 65);
+    border-radius: 6px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-right: 10px; /* Adjust spacing between links if needed */
+  }
+  
+  .footer-links a.nav-link:hover {
+    background-color: #cfc7c7;
+    color: rgb(68, 65, 65);
+  }
+  .footer-links .nav-link {
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
