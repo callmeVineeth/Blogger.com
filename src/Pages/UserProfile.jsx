@@ -1,14 +1,15 @@
 import React from 'react'
-import { Row , Col, Form } from 'react-bootstrap'
+import { Row , Col, Form ,Button } from 'react-bootstrap'
 import profilePic from '../Images/st3.jpg'
 import { MdEditSquare } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function UserProfile() {
   return (
-    <section className=' bg-light p-4 d-flex flex-column py-5 m-5 justify-content-center  align-items-center'>
+    <section className=' bg-light p-4 d-flex flex-column justify-content-center  align-items-center'>
 
-      <div className=' w-50 d-flex flex-column align-items-center'>
-        <p className=' bg-white p-2  rounded-3'>My posts</p>
+      <div className=' m-5 w-50 d-flex flex-column align-items-center'>
+        <Link className=' bg-white p-2  rounded-3'>My posts</Link>
        <div className=' position-relative d-flex align-items-center justify-content-center  shadow-sm'
         style={{ width:'118px', height:'118px', borderRadius:'360px', backgroundColor:'white'}}> 
         <img src={profilePic} className='' style={{ width:'100px', height:'100px', borderRadius:'360px'}} /> 
@@ -22,6 +23,7 @@ function UserProfile() {
         <Form.Control size="sm" type="text" placeholder="Email" />
         <Form.Control size="sm" type="text" placeholder="Total Posts" />
         <Form.Control size="sm" type="text" placeholder="Ratings" />
+        <Button className=' w-25 bg-success bg-light-hover'>Update Details</Button>
         </div>
       </div>
     </section>
@@ -29,3 +31,5 @@ function UserProfile() {
 }
 
 export default UserProfile
+
+
