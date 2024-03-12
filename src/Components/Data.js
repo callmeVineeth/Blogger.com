@@ -1,6 +1,10 @@
-const DummyData=()=>{
+import avathar1 from '../Images/st1.jpg'
+import avathar2 from '../Images/st2.jpg'
+import avathar3 from '../Images/st3.jpg'
 
-    [
+function DummyData(){
+
+   return [
         {
             id: 1,
             name: 'John Doe',

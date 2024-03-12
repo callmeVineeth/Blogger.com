@@ -9,7 +9,7 @@ function UserProfile() {
     <section className=' bg-light p-4 d-flex flex-column justify-content-center  align-items-center'>
 
       <div className=' m-5 w-50 d-flex flex-column align-items-center'>
-        <Link className=' bg-white p-2  rounded-3'>My posts</Link>
+        <Link to='/dashboard'> <button className=' bg-white p-2  rounded-3' to>My posts </button> </Link>
        <div className=' position-relative d-flex align-items-center justify-content-center  shadow-sm'
         style={{ width:'118px', height:'118px', borderRadius:'360px', backgroundColor:'white'}}> 
         <img src={profilePic} className='' style={{ width:'100px', height:'100px', borderRadius:'360px'}} /> 
