@@ -10,13 +10,14 @@ import Home from "./Pages/Home";
 import PostDetails from "./Pages/PostDetails";
 import Register from "./Pages/Register";
 import UserProfile from "./Pages/UserProfile";
-import Authors from "./Pages/Authors";
+import Authors from "./Components/Authors";
 import CreatePosts from "./Pages/CreatePosts";
 import CategoryPosts from "./Pages/CategoryPosts"
 import EditPosts from "./Pages/EditPosts";
 import AuthorPosts from "./Pages/AuthorPosts";
 import LogOut from "./Pages/LogOut";
 import Layout from "./Components/Layout";
+import Login from './Pages/Login';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "posts/:id", element: <PostDetails /> },
       { path: "register", element: <Register /> },
+      { path: "/login", element: <Login/> },
       { path: "profile/:id", element: <UserProfile /> },
       { path: "authors", element: <Authors /> },
       { path: "create", element: <CreatePosts /> },

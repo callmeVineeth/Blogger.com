@@ -20,11 +20,12 @@ function Header() {
             <Nav.Link as={Link} to="/create">Create Post</Nav.Link>
             <Nav.Link as={Link} to="/authors">Authors</Nav.Link>
             <NavDropdown title="Profile" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/authors">Authors</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/profile/:id">My Profile</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/create">Create Post</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/posts">Edit Post</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/logout">Logout</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="register">Register</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
