@@ -4,7 +4,7 @@ import { Row,Col } from 'react-bootstrap'
 function DashboardItem({postImg, details}) {
   return (
     <div>
-        <Row  className=' bg-info p-2 m-2 d-flex flex-row justify-content-between'>
+        <Row  className=' bg-info w-50 p-2 m-2 d-flex flex-row justify-content-between align-items-center'>
            <Col>
             <img src={postImg}  className=' w-25' alt='postsImage' />
             <p>{details}</p>
